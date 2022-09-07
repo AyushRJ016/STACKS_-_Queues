@@ -1,5 +1,5 @@
 //Coding Ninjas......https://www.codingninjas.com/codestudio/problems/sort-a-stack_985275?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0
-
+// O(n^2)
 void sortedInsert(stack<int> &stack, int num) {
     //base case
     if(stack.empty() || (!stack.empty() && stack.top() < num) ) {
